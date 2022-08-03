@@ -1,19 +1,293 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IkachatDx</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>Help.<br>LEARN TO BE CREATIVE.</h1>
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.2">
+    
+    
+      
+        <title>イカチャットDX（Ika Chat DX）</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.69437709.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="イカチャットDX（Ika Chat DX）" class="md-header__button md-logo" aria-label="イカチャットDX（Ika Chat DX）" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            イカチャットDX（Ika Chat DX）
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ヘルプページ
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
     </div>
   </div>
-</body>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="イカチャットDX（Ika Chat DX）" class="md-nav__button md-logo" aria-label="イカチャットDX（Ika Chat DX）" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    イカチャットDX（Ika Chat DX）
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        ヘルプページ
+      </a>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="_1">ヘルプページ</h1>
+<p>（公開グループ「新規さん必読イカチャとグループのルール」より引用）</p>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715653521%2Fc27d46a1-9473-49d2-a00f-a1ab38785670%2FScreenshot_2022-04-23-20-54-48-293~2.jpeg?alt=media&token=f9825776-ecab-49ce-b716-7d118e0b7dc8" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715660428%2Fb02f77a3-ac36-462a-9f36-19c4a0fb455a%2FScreenshot_2022-04-23-20-55-51-660~2.jpeg?alt=media&token=3199a19b-6bad-4fcb-88c2-7174e977fd75" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F2%2F2%2F1643802677769%2F639ee075-b736-4f6d-93d8-e9f81aed10ac%2F%E7%84%A1%E9%A1%8C148_20220202204958.png?alt=media&token=b2f121eb-0387-4e82-9f01-c53ff9576881" width="400">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715667390%2F2f214b16-3702-4851-9259-db65b096cef3%2FScreenshot_2022-04-23-20-56-32-568~2.jpeg?alt=media&token=9f7b9b8c-650a-487b-9c19-06ca7b0eb19b" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715673918%2Ffe068685-0a70-4127-bd5f-1301757257c1%2FScreenshot_2022-04-23-20-57-10-788~2.jpeg?alt=media&token=03cefbf4-fd48-4ea3-95d2-92b0226b3d07" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715681329%2F5dea3276-cc4d-45ac-b509-8e59144b2ff5%2FScreenshot_2022-04-23-20-57-16-886~2.jpeg?alt=media&token=63cbc749-9580-45df-9d14-fccf42927fc6" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715689867%2Ff1d537af-6d46-4ee6-a56a-b666eee5646a%2FScreenshot_2022-04-23-20-57-24-847~2.jpeg?alt=media&token=9bd3e381-d093-4d2d-b2e7-e3c1dd2f381a" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715697004%2Fbe26f9af-39c9-4737-b6b4-38fa78554894%2FScreenshot_2022-04-23-20-57-30-723~2.jpeg?alt=media&token=22c2c1cc-9b79-49ef-a6fb-61ae6d98f1b5" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715703774%2F570838e7-3bc5-4ba9-ab26-aeefbec892bd%2FScreenshot_2022-04-23-20-57-38-259~2.jpeg?alt=media&token=61453cc9-19c0-4fbf-a870-9473e0c50b5a" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715709621%2F1db9a046-e995-47c4-a7d2-75c57cd911bd%2FScreenshot_2022-04-23-20-57-44-489~2.jpeg?alt=media&token=5e7a6bc0-3449-4875-9bea-b19537e396f3" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715717022%2Fdd6aabec-c73a-469b-a288-284df3a90b9c%2FScreenshot_2022-04-23-20-57-50-896~2.jpeg?alt=media&token=0bfb7918-612f-44e1-a833-defd2821fe87" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715723059%2F528352ee-1530-4d79-872a-95da06166e9c%2FScreenshot_2022-04-23-21-01-53-896~2.jpeg?alt=media&token=21670271-39c4-487a-a55d-9a01c2ae2935" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715734222%2F6661dc35-1184-4b08-b104-ae87352e93ff%2FScreenshot_2022-04-23-20-58-05-469~2.jpeg?alt=media&token=f3c82923-7609-46eb-9930-47448b063f71" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715740200%2F5a20f8ed-768f-4712-b6c4-cd410313a021%2FScreenshot_2022-04-23-20-58-11-031~2.jpeg?alt=media&token=77707c54-ea3b-4095-8c83-b5e0373be1d2" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715749974%2Fab5489c2-e20f-46fc-981c-670765f634e9%2FScreenshot_2022-04-23-20-58-17-719~2.jpeg?alt=media&token=ef237b33-2c38-48df-a5a7-a53d444b8dc3" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715758725%2Fb4c88654-5441-4b72-8867-dce12d5cbbf2%2FScreenshot_2022-04-23-20-58-26-207~2.jpeg?alt=media&token=a2d5459c-e69a-4a46-8e65-fe5ebd4f950a" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715784469%2F76819ac0-9c53-4678-9de2-38728be041f7%2FScreenshot_2022-04-23-20-58-36-763~2.jpeg?alt=media&token=48f1ad98-5d13-4537-be9e-83882696a66b" width="500">
+<img src="https://firebasestorage.googleapis.com/v0/b/ikachatdx.appspot.com/o/postImaegs%2F2022%2F4%2F23%2F1650715793434%2F92d33b67-4ef8-4618-bc66-08e5c3238711%2FScreenshot_2022-04-23-20-58-44-388~2.jpeg?alt=media&token=f6722a9b-4f0c-482d-82a7-5d7c77e9bd18" width="500"></p>
+
+
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.9c69f0bc.min.js"></script>
+      
+    
+  </body>
 </html>
